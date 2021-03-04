@@ -1,0 +1,6 @@
+README.md
+setup.py
+tabnet.egg-info/PKG-INFO
+tabnet.egg-info/SOURCES.txt
+tabnet.egg-info/dependency_links.txt
+tabnet.egg-info/top_level.txt
