@@ -1,5 +1,7 @@
 # README
 
+для сборки python setup.py install
+
 # TabNet : Attentive Interpretable Tabular Learning
 
 This is a pyTorch implementation of Tabnet (Arik, S. O., & Pfister, T. (2019). TabNet: Attentive Interpretable Tabular Learning. arXiv preprint arXiv:1908.07442.) https://arxiv.org/pdf/1908.07442.pdf.
