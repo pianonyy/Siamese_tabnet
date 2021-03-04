@@ -18,37 +18,7 @@ Any questions ? Want to contribute ? To talk with us ? You can join us on [Slack
 You can install using pip by running:
 `pip install pytorch-tabnet`
 
-## Source code
-If you wan to use it locally within a docker container:
 
-- `git clone git@github.com:dreamquark-ai/tabnet.git`
-
-- `cd tabnet` to get inside the repository
-
------------------
-#### CPU only
-- `make start` to build and get inside the container
-
-#### GPU
-- `make start-gpu` to build and get inside the GPU container
-
------------------
-- `poetry install` to install all the dependencies, including jupyter
-
-- `make notebook` inside the same terminal. You can then follow the link to a jupyter notebook with tabnet installed.
-
-# What problems does pytorch-tabnet handles?
-
-- TabNetClassifier : binary classification and multi-class classification problems
-- TabNetRegressor : simple and multi-task regression problems
-- TabNetMultiTaskClassifier:  multi-task multi-classification problems
-
-# How to use it?
-
-TabNet is now scikit-compatible, training a TabNetClassifier or TabNetRegressor is really easy.
-
-```python
-from pytorch_tabnet.tab_model import TabNetClassifier, TabNetRegressor
 
 clf = TabNetClassifier()  #TabNetRegressor()
 clf.fit(
